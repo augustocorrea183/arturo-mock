@@ -6,7 +6,7 @@ Simple mock tool for developers.
 - UI for CRUD of mocks
 - Record mocks
 - Forward rules (proxy)
-- MondoDB/HD storage
+- MongoDB/HD storage
 
 ## Requirements
 
