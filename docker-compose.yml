@@ -1,0 +1,24 @@
+version: "2.1"
+
+services:
+  mongo-db:
+    image: mongo:3.2
+
+  arturo-mock:
+    build:
+      context: .
+    ports:
+      - "80:80"
+    working_dir: /var/www/html
+    volumes:
+      - ./src/bin:/var/www/html/bin
+      - ./src/config:/var/www/html/config
+      - ./src/src:/var/www/html/src
+      - ./src/templates:/var/www/html/templates
+      - ./src/tests:/var/www/html/tests
+      - ./src/var:/var/www/html/var
+      - ./src/web:/var/www/html/web
+    depends_on:
+      - "mongo-db"
+    links:
+      - "mongo-db"

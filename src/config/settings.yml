@@ -1,0 +1,11 @@
+storage:
+  type: mongo # mongo | hd
+
+database:
+  protocol: mongodb
+  host: mongo-db
+  dbname: mocks
+  port: 27017
+
+filesystem:
+  data: web/data/

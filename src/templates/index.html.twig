@@ -1,0 +1,7 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+    <div ui-view="ng-admin"></div>
+    <script src="{{ asset('js/ng-admin.min.js') }}"></script>
+    <script src="{{ asset('js/admin.js') }}"></script>
+{% endblock %}

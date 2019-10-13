@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title 'ARTURO MOCK' %}</title>
+        <link href="{{ asset('css/ng-admin.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Notable|Righteous|Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body ng-app="myApp">
+        {% block content %}{% endblock %}
+    </body>
+</html>

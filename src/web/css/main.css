@@ -1,0 +1,48 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+#page-wrapper {
+  margin-left: 0;
+}
+
+ma-export-to-csv-button {
+  display: none;
+}
+
+.navbar {
+  background-color: #0747a6;
+}
+
+#header-nav a {
+  color: #eee;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Notable', sans-serif;
+  font-family: 'Righteous', cursive;
+  margin-left: 18px;
+}
+
+.h1, h1 {
+  font-size: 24px;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Notable', sans-serif;
+  font-family: 'Righteous', cursive;
+  color: #999;
+}
+
+textarea {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.red-color a {
+  color: #920d0c;
+}
+.gray-color a {
+  color: gray;
+}
+.green-color a {
+  color: green;
+}
+.blue-color a {
+  color: blue;
+}
