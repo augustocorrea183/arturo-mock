@@ -8,6 +8,8 @@ Simple mock tool for developers.
 - Forward rules (proxy)
 - MongoDB/HD storage
 
+Author: http://www.linkedin.com/in/dev-augusto-correa
+
 ## Requirements
 
 - PHP 7
