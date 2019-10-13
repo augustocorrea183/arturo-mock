@@ -1,5 +1,13 @@
 # Arturo Mock
 
+Simple mock tool for developers.
+
+- Fast setup
+- UI for CRUD of mocks
+- Record mocks
+- Forward rules (proxy)
+- MondoDB/HD storage
+
 ## Requirements
 
 - PHP 7
